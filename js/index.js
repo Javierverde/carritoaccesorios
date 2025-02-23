@@ -9,7 +9,7 @@ const container = document.createElement("div");
 container.classList.add("container");
 document.body.appendChild(container);
 
-// Botón para abrir/cerrar carrito
+// Botón para abrir carrito
 const toggleCartButton = document.createElement("button");
 toggleCartButton.textContent = "🛒 Ver Carrito";
 toggleCartButton.id = "toggle-cart";
@@ -20,10 +20,10 @@ const productGrid = document.createElement("div");
 productGrid.classList.add("grid");
 container.appendChild(productGrid);
 
-// Panel lateral del carrito (inicialmente oculto)
+// Panel lateral del carrito
 const sidebar = document.createElement("div");
 sidebar.id = "cart-sidebar";
-sidebar.classList.add("hidden");  // Se oculta por defecto
+sidebar.classList.add("hidden");
 sidebar.innerHTML = `
   <h2>Carrito</h2>
   <div id="cart-items"></div>
