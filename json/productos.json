@@ -1,0 +1,17 @@
+[
+    { "id": 1, 
+    "name": "Teclado", 
+    "price": 35000, 
+    "img": "images/tecladoGamer.jpg" 
+    },
+    
+    { "id": 2, "name": "Mouse", "price": 19000, "img": "images/mouseGamer.jpeg" },
+    { "id": 3, "name": "Auriculares", "price": 70000, "img": "images/auricularesGamer.png" },
+    { "id": 4, "name": "Monitor", "price": 249999, "img": "images/monitorGarmer.jpeg" },
+    { "id": 5, "name": "Placa de video", "price": 445000, "img": "images/placaDeVideo.jpg" },
+    { "id": 6, "name": "Procesador", "price": 699999, "img": "images/procesador.jpg" },
+    { "id": 7, "name": "Memora RAM 8GB", "price": 42000, "img": "images/memoria.jpg" },
+    { "id": 8, "name": "Memoria RAM 16 GB", "price": 76000, "img": "images/memoria.jpg" },
+    { "id": 9, "name": "SSD 500 GB", "price": 39000, "img": "images/SSD500.jpg" },
+    { "id": 10, "name": "SSD 1 TB", "price": 68000, "img": "images/SSD1.jpg" }
+  ]
